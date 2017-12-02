@@ -6,7 +6,7 @@ if(isset($_SESSION["email"]))
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>register your store</title>
 	<link rel="stylesheet" type="text/css" href="css/buttona.css">

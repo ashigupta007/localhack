@@ -6,8 +6,10 @@ session_start();
 <head>
 	<title>Welcome</title>
 
+    <link rel="stylesheet" type="text/css" href="../css/buttona.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/mycss.css">
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet"> 
 
 
 </head>
@@ -47,11 +49,11 @@ session_start();
 </center>
 	<hr>
 
-	<a href="delete_list.php">Remove any medicine from your store-List</a>
+	<a href="delete_list.php"><font color="black";><u>Remove any medicine from your store-List</a></u>
 	<br><br>
-	<a href="add_to_list.php">Add Medicine to the store-list</a>
+	<a href="add_to_list.php"><font color="black";><u>Add Medicine to the store-list</a></u>
 
 	<br><br><br>
-	<a href="logout.php"><button>Log Out</button></a>
+	<a href="logout.php"><button class="bttn-gradient bttn-md bttn-primary">Log Out</button>
 </body>
 </html>

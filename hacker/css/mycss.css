@@ -1,8 +1,7 @@
 body
 {
 	text-align: center;
-    font-family: 'Kanit', sans-serif;
-
+    font-family: 'Jura', sans-serif;
 }
 .txt-sml
 {
@@ -10,7 +9,7 @@ body
 	width: 300px;
 	padding: 10px;
 	border: 0px;
-	border-bottom: 3px solid black;
+	border-bottom: 1px solid black;
 	margin-top: 50px;
 	display:table;
 	color: black;

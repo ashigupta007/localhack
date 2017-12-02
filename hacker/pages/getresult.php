@@ -4,7 +4,7 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="../css/mycss.css">
 </head>
-<body style="background-image: url('back1.jpg');">
+<body style="background-image:url('back1.jpg');">
 	<center>
 		<h1>Your Search Result </h1>
 <?php
@@ -20,10 +20,10 @@ if (!$conn) {
 
 $sql = "SELECT * FROM med_info WHERE med_name LIKE '%".$keyword."%'" ;
 
-echo "<tr><td><b>Medicine Name<b></td> <td> <b>Idle For<b></td> <td> <b>Location </b>  </td></tr>";
-while($row = mysqli_fetc
 $query=mysqli_query($conn, $sql);
-echo "<table>";h_assoc($query))
+echo "<table>";
+echo "<tr><td><b>Medicine Name<b></td> <td> <b>Idle For<b></td> <td> <b>Location </b>  </td></tr>";
+while($row = mysqli_fetch_assoc($query))
 {
 	echo "<tr>";
 		echo "<td>".$row['med_name']."</td> <td>" . $row["idle_for"]. "</td><td>".$row["location"]."</td>";
